@@ -65,3 +65,38 @@ body {
     color: #fff; 
   }
   
+  
+  @media only screen and (max-width: 768px) {
+    .container {
+      padding: 0 10px; 
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      background-color: #d91c5c;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .nav-links ul {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .nav-links li {
+      margin-bottom: 10px;
+    }
+  
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+    }
+}
