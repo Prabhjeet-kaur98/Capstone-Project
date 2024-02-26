@@ -11,14 +11,16 @@
 <header>
   <div class="container">
     <div class="logo">
-      <img src="images/new logo1.png" alt="Logo">
-    </div>
+        <a href="index.html">
+          <img src="images/new logo1.png" alt="Logo">
+        </a>
+      </div>
     <nav class="nav-links">
       <ul>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">New</a></li>
-        <li><a href="#">Bestseller</a></li>
-        <li><a href="#">Discover</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="new.html">New</a></li>
+        <li><a href="bestseller.html">Bestseller</a></li>
+        <li><a href="discover.html">Discover</a></li>
       </ul>
     </nav>
     <div class="search-bar">
@@ -53,6 +55,92 @@
   <button class="carousel-control prev" onclick="previousSlide()">&#10094;</button>
   <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
 </div>
+
+
+
+<!-- Trending Now Section -->
+<div class="trending-now">
+    <h2 class="trending-title">TRENDING NOW</h2>
+    <p class="trending-subtitle">Your favorite Lakme makeup and skin care</p>
+    <div class="filter-buttons">
+      <button class="filter-btn active" onclick="filterProducts('new')">New Arrivals</button>
+      <button class="filter-btn" onclick="filterProducts('bestseller')">Bestsellers</button>
+    </div>
+    <div class="product-container">
+      <!-- Product Card 1 (New Arrival) -->
+      <div class="product-card new">
+        <span class="product-label new">NEW</span>
+        <img src="images/top-view-foundation-containers-arrangement.jpg" alt="New Product Image">
+        <h3 class="product-name">Foundation</h3>
+        <p class="product-price">$12 <span class="original-price">₹899</span></p>
+        <!-- Add to Cart Button -->
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-card new">
+        <span class="product-label new">NEW</span>
+        <img src="images/top-view-lipstick-with-brush.jpg" alt="New Product Image">
+        <h3 class="product-name">Liquid Red Lipstick</h3>
+        <p class="product-price">$20 <span class="original-price">₹899</span></p>
+        <!-- Add to Cart Button -->
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-card new">
+        <span class="product-label new">NEW</span>
+        <img src="images/top-view-mascara-with-copy-space.jpg" alt="New Product Image">
+        <h3 class="product-name">Black Mascara</h3>
+        <p class="product-price">$15 <span class="original-price">₹899</span></p>
+        <!-- Add to Cart Button -->
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-card new">
+        <span class="product-label new">NEW</span>
+        <img src="images/pomade.jpg" alt="New Product Image">
+        <h3 class="product-name">Lipstick</h3>
+        <p class="product-price">$12 <span class="original-price">₹899</span></p>
+        <!-- Add to Cart Button -->
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+  
+  
+  
+  
+      <!-- Product Card 2 (Bestseller) -->
+      <div class="product-card bestseller">
+        <span class="product-label bestseller">BESTSELLER</span>
+        <img src="images/Screenshot (411).png" alt="Bestseller Product Image">
+        <h3 class="product-name">Bestseller Product Name</h3>
+        <p class="product-price">₹499</p>
+        <!-- Add to Cart Button -->
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-card bestseller">
+        <span class="product-label bestseller">BESTSELLER</span>
+        <img src="images/red-lip-gloss-with-sky-background.jpg" alt="Bestseller Product Image">
+        <h3 class="product-name">Bestseller Product Name</h3>
+        <p class="product-price">₹499</p>
+        <!-- Add to Cart Button -->
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-card bestseller">
+        <span class="product-label bestseller">BESTSELLER</span>
+        <img src="images/powder-face-cosmetic-isolated-white-background.jpg" alt="Bestseller Product Image">
+        <h3 class="product-name">Bestseller Product Name</h3>
+        <p class="product-price">₹499</p>
+        <!-- Add to Cart Button -->
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-card bestseller">
+        <span class="product-label bestseller">BESTSELLER</span>
+        <img src="images/pesce-huang-6hjazi61zpQ-unsplash.jpg" alt="Bestseller Product Image">
+        <h3 class="product-name">Bestseller Product Name</h3>
+        <p class="product-price">₹499</p>
+        <!-- Add to Cart Button -->
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <!-- More product cards can be added here -->
+    </div>
+  </div>
+
 <div class="overlay" onclick="toggleMenu()"></div>
 <script src="script.js"></script>
 </body>
