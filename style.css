@@ -99,26 +99,18 @@ body {
       color: #fff;
       text-decoration: none;
     }
+    .search-bar {
+        max-width: none;
+        margin-bottom: 10px;
+      }
+    
+      .hamburger {
+        display: flex;
+      }
+    
+      .overlay {
+        display: block;
+      }
+    }
       
-  .search-bar {
-    display: flex;
-    align-items: center;
-    max-width: 200px; 
-  }
-  
-  .search-bar input {
-    padding: 8px;
-    width: 100%;
-    border-radius: 5px 0 0 5px;
-    border: none;
-  }
-  
-  .search-bar button {
-    padding: 8px 15px;
-    background-color: #fff;
-    border: none;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-  }
-
-}
+ 
