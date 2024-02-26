@@ -51,3 +51,11 @@ body {
     border-radius: 5px 0 0 5px;
     border: none;
   }
+  .search-bar button {
+    padding: 8px 15px;
+    background-color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
