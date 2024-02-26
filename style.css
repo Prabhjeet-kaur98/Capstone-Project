@@ -54,8 +54,11 @@ body {
   .search-bar button {
     padding: 8px 15px;
     background-color: #fff;
-    border: none;
-    border-radius: 0 5px 5px 0;
+    color: #d91c5c;
+    border: 2px solid #d91c5c; 
+    border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
   }
+  
   
