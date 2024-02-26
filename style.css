@@ -222,5 +222,109 @@ header {
     right: 10px;
   }
  
+
+  /* Existing CSS */
+/* ... */
+
+
+.trending-now {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .trending-title {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .trending-subtitle {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .filter-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .filter-btn {
+    background-color: #fff;
+    border: 1px solid #d91c5c;
+    color: #d91c5c;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .filter-btn.active {
+    background-color: #d91c5c;
+    color: #fff;
+  }
+  
+  .product-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    width: 200px;
+    border: 1px solid #eee;
+    margin: 50px;
+    padding: 10px;
+    background: #fff;
+    position: relative;
+    text-align: left;
+  }
+  
+  .product-label {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #d91c5c;
+    color: #fff;
+    padding: 5px;
+    font-size: 0.75em;
+    font-weight: bold;
+  }
+  
+  .product-name {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .product-price {
+    font-size: 1em;
+    color: #d91c5c;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #777;
+    font-size: 0.85em;
+  }
+  .add-to-cart-btn {
+    padding: 10px 20px;
+    background-color: #ff6a88; /* Example pink color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #ff3b5f; /* Darker shade for hover effect */
+  }
  
+  .product-card img {
+    width: 200px; /* fixed width */
+    height: 200px; /* fixed height, adjust as needed */
+    object-fit: cover; /* this will cover the area, potentially cropping the image */
+    display: block; /* removes any extra space at the bottom */
+    margin: 0 auto; /* this will center the image in the card if the card is wider than the image */
+  }
+    
   

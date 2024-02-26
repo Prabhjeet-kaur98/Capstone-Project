@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zia Makeup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="logo">
+        <a href="index.html">
+          <img src="images/new logo1.png" alt="Logo">
+        </a>
+      </div>
+    <nav class="nav-links">
+      <ul>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="new.html">New</a></li>
+        <li><a href="bestseller.html">Bestseller</a></li>
+        <li><a href="discover.html">Discover</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+      <button>Search</button>
+      <div class="hamburger" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="overlay" onclick="toggleMenu()"></div>
+<script src="script.js"></script>
+</body>
+</html>
