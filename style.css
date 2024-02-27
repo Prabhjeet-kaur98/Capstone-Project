@@ -447,3 +447,17 @@ header {
     font-size: calc(1em + 0.5vw); 
   }
 }
+
+@media (min-width: 992px) {
+  .container-text h1 {
+    font-size: calc(2.5em + 1vw);
+  }
+
+  .container-text p {
+    font-size: calc(1.2em + 0.5vw);
+  }
+
+  .container-text button {
+    font-size: calc(1.2em + 0.5vw);
+  }
+}
