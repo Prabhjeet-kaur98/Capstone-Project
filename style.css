@@ -687,3 +687,15 @@ footer {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.guide-item img,
+.option img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #eee;
+}
+
+.guide-item h3,
+.option h3 {
+  color: #000;
+  margin-bottom: 10px;
+}
