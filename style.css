@@ -850,3 +850,22 @@ button:hover {
   border-radius: 4px; 
   margin-bottom: 10px; 
 }
+#shop-the-look img {
+  max-width: 100%;
+  height: auto;
+}
+
+.shop-look-btn {
+  display: inline-block;
+  background-color: #d91c5c;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.shop-look-btn:hover {
+  background-color: #d91c5c;
+}
