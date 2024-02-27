@@ -511,3 +511,23 @@ header {
   justify-content: center; 
   text-align: center;
 }
+.ad-text {
+  position: relative; 
+  max-width: 600px; 
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.ad-text h2 {
+  font-size: 3em; 
+  color: #ffffff; 
+}
+
+.ad-text .hot {
+  color: #ffffff; 
+}
+
+.ad-text p {
+  font-size: 1.5em; 
+  margin: 20px 0; 
+}
