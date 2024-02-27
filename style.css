@@ -567,3 +567,24 @@ header {
     font-size: 0.8em; 
   }
 }
+
+.product-introduction {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  }
+  
+  .product-introduction h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  }
+  
+  .product-introduction p {
+  font-size: 16px;
+  color: #020202;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  }
