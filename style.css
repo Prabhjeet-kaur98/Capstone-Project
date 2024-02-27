@@ -631,3 +631,7 @@ footer {
   display: inline-block;
   margin-right: 10px;
 }
+
+.footer-social ul li:last-child {
+  margin-right: 0;
+}
