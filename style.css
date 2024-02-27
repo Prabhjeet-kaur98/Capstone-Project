@@ -770,4 +770,14 @@ footer {
 .option {
   animation: fadeInUp 0.5s ease-out forwards;
 }
+/* Apply the animation with a staggered effect */
+.guide-item:nth-child(odd),
+.option:nth-child(odd) {
+  animation-delay: 0.2s;
+}
+
+.guide-item:nth-child(even),
+.option:nth-child(even) {
+  animation-delay: 0.4s;
+}
 
