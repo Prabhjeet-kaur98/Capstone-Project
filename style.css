@@ -330,4 +330,12 @@ header {
     margin: 0 auto; 
   }
     
- 
+ /* shop now page  */
+
+.featured-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff;
+}
