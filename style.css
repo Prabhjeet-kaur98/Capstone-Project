@@ -869,3 +869,9 @@ button:hover {
 .shop-look-btn:hover {
   background-color: #d91c5c;
 }
+
+@media (max-width: 768px) {
+  .look {
+      flex-basis: 100%; /* Each item will take the full width on smaller screens */
+  }
+}
