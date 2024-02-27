@@ -635,3 +635,17 @@ footer {
 .footer-social ul li:last-child {
   margin-right: 0;
 }
+
+
+
+/* Base Styles for Discover Content */
+.discover-content {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.makeup-guide,
+.discovery-help {
+  margin-bottom: 40px;
+}
