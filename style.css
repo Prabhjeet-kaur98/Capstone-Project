@@ -461,3 +461,17 @@ header {
     font-size: calc(1.2em + 0.5vw);
   }
 }
+
+
+ /* Hover effect for text container */
+ .container-text:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px); /* Slightly raise the container */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover effect for image */
+  .image-side img {
+  transition: transform 0.3s ease;
+  }
+  
