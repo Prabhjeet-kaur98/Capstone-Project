@@ -339,3 +339,21 @@ header {
   height: 100vh;
   color: #fff;
 }
+
+.featured-text {
+  flex: 1;
+  padding: 50px;
+  background-color: #844d65; 
+  text-align: left;
+}
+
+.featured-text h1 {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+.featured-text p {
+  font-size: 1em;
+  margin-bottom: 1em;
+  color: #f1f1f1;
+}
