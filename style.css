@@ -649,3 +649,12 @@ footer {
 .discovery-help {
   margin-bottom: 40px;
 }
+
+.makeup-guide h2,
+.discovery-help h2 {
+  color: #d91c5c;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
