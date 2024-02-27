@@ -412,3 +412,12 @@ header {
   text-transform: uppercase;
   font-weight: bold;
 }
+.image-side {
+  background-color: #fff; /* White background */
+  text-align: center;
+}
+
+.image-side img {
+  max-width: 100%;
+  height: auto;
+}
