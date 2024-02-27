@@ -699,3 +699,22 @@ footer {
   color: #000;
   margin-bottom: 10px;
 }
+
+
+.guide-item p,
+.option p {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.read-more,
+.book-now,
+.take-quiz {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  background-color: #d91c5c;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
