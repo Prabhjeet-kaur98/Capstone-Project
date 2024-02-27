@@ -718,3 +718,16 @@ footer {
   border-radius: 5px;
   transition: background-color 0.3s, transform 0.3s;
 }
+.read-more:hover,
+.book-now:hover,
+.take-quiz:hover {
+  background-color: #c41a4b;
+  transform: translateY(-3px);
+}
+
+/* Hover Effects for Cards */
+.guide-item:hover,
+.option:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
