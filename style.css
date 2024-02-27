@@ -802,4 +802,22 @@ section {
   max-width: 100%;
   height: auto;
 }
+.shop-look-btn {
+  display: inline-block;
+  background-color:#d91c5c ;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
 
+.shop-look-btn:hover {
+  background-color: #ddd;
+}
+
+
+button:hover {
+  background-color: #d91c5c;
+}
