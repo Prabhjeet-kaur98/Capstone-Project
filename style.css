@@ -376,3 +376,15 @@ header {
   flex-wrap: wrap;
   width: 100%;
 }
+
+.container-text,
+.image-side {
+  flex: 1 1 100%;
+  padding: 20px;
+  box-sizing: border-box; 
+}
+
+.container-text {
+  background-color: #000000; 
+  color: white;
+}
