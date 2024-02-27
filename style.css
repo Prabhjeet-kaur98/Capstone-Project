@@ -413,11 +413,37 @@ header {
   font-weight: bold;
 }
 .image-side {
-  background-color: #fff; /* White background */
+  background-color: #fff; 
   text-align: center;
 }
 
 .image-side img {
   max-width: 100%;
   height: auto;
+}
+
+/* Responsive Media Queries */
+@media (min-width: 600px) {
+  .container-text,
+  .image-side {
+    flex: 1; 
+  }
+}
+
+@media (min-width: 768px) {
+  .container-text {
+    padding: 50px; 
+  }
+
+  .container-text h1 {
+    font-size: calc(2em + 1vw); 
+  }
+
+  .container-text p {
+    font-size: calc(1em + 0.5vw); 
+  }
+
+  .container-text button {
+    font-size: calc(1em + 0.5vw); 
+  }
 }
