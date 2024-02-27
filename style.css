@@ -466,7 +466,7 @@ header {
  /* Hover effect for text container */
  .container-text:hover {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-  transform: translateY(-5px); /* Slightly raise the container */
+  transform: translateY(-5px); 
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   }
   
@@ -474,4 +474,15 @@ header {
   .image-side img {
   transition: transform 0.3s ease;
   }
-  
+  .image-side:hover img {
+    transform: scale(1.05);
+    }
+    
+    
+    /* shop page product section */
+    .product-section {
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+    }
+      
