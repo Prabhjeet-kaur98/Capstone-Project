@@ -59,5 +59,8 @@ function filterProducts(category) {
     filterProducts('new'); // Set 'new' as the default filter
   });
   
+
+
+
   
 
