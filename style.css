@@ -658,3 +658,15 @@ footer {
   position: relative;
   display: inline-block;
 }
+.makeup-guide h2::after,
+.discovery-help h2::after {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 2px;
+  background: #d91c5c;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+}
