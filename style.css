@@ -388,3 +388,17 @@ header {
   background-color: #000000; 
   color: white;
 }
+
+.container-text h1 {
+  font-size: calc(1.5em + 1vw);
+  margin: 0 0 20px 0;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.container-text p {
+  font-size: calc(0.8em + 0.5vw);
+  margin: 0 0 40px 0;
+  line-height: 1.3;
+}
