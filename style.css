@@ -743,3 +743,15 @@ footer {
 .hidden {
   display: none;
 }
+
+
+/* Style for 'Read More' button */
+.read-more {
+  background-color: #d91c5c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
