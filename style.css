@@ -781,3 +781,25 @@ footer {
   animation-delay: 0.4s;
 }
 
+section {
+  margin: 20px;
+  padding: 20px;
+}
+
+#rewards {
+  background-color:#d91c5c ;
+  text-align: center;
+}
+
+#shop-the-look .look {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#shop-the-look img {
+  max-width: 100%;
+  height: auto;
+}
+
