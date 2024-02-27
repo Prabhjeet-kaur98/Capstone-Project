@@ -357,3 +357,17 @@ header {
   margin-bottom: 1em;
   color: #f1f1f1;
 }
+.shop-now-btn {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.shop-now-btn:hover {
+  background-color: #fff;
+  color: #844d65;
+}
