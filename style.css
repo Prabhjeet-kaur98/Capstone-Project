@@ -4,6 +4,7 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
+ /* Header styles */
 header {
     display: flex;
     justify-content: space-between;
@@ -19,9 +20,13 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+ /*logo image styles */
+
 .logo img {
     height: 100px;
 }
+
+ /* nav links syles */
 
 .nav-links ul {
     list-style: none;
@@ -89,7 +94,7 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -1;
 }
-
+ /* small screen styles for navbar */
 @media (max-width: 768px) {
     .nav-links {
         position: fixed;
@@ -221,12 +226,10 @@ header {
   .carousel-control.next {
     right: 10px;
   }
+
+
+   /* Card new and bestseller product style*/
  
-
-  /* Existing CSS */
-/* ... */
-
-
 .trending-now {
     text-align: center;
     padding: 20px;
@@ -305,7 +308,7 @@ header {
   }
   .add-to-cart-btn {
     padding: 10px 20px;
-    background-color: #ff6a88; /* Example pink color */
+    background-color: #d91c5c; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -316,15 +319,15 @@ header {
   }
   
   .add-to-cart-btn:hover {
-    background-color: #ff3b5f; /* Darker shade for hover effect */
+    background-color: #ff3b5f; 
   }
  
   .product-card img {
-    width: 200px; /* fixed width */
-    height: 200px; /* fixed height, adjust as needed */
-    object-fit: cover; /* this will cover the area, potentially cropping the image */
-    display: block; /* removes any extra space at the bottom */
-    margin: 0 auto; /* this will center the image in the card if the card is wider than the image */
+    width: 200px;
+    height: 200px; 
+    object-fit: cover; 
+    display: block; 
+    margin: 0 auto; 
   }
     
-  
+ 
